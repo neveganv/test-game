@@ -1,0 +1,40 @@
+.min {
+    &-100-vh {
+        min-height: 100vh;
+    }
+    &-full {
+        min-height: calc(100vh - 80px);
+    }
+}
+
+.font {
+    &-36 {
+        font-size: 36px;
+    }
+
+    &-32 {
+        font-size: 32px;
+    }
+
+    &-24 {
+        font-size: 24px;
+    }
+
+    &-20 {
+        font-size: 20px;
+    }
+
+    &-16 {
+        font-size: 16px;
+    }
+}
+
+.font-weight {
+    &-500 {
+        font-weight: 500;
+    }
+
+    &-600 {
+        font-weight: 600;
+    }
+}
